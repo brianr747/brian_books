@@ -30,5 +30,5 @@ p2 <- ShadeBars1(norm_ser, recession,
                  startdate = '1977-01-01')
 p2 <- SetXAxis(p2,"1977-01-01", "2018-12-01")
 p2 <- p2 + geom_hline(colour=BondEconomicsBlue(), yintercept=0)
-TwoPanelChart(pp,p2, "c_02_04_4_employment_devtrend.png","*Current value divided by 12-month moving average.. Source: BLS (via FRED).")
+TwoPanelChart(pp,p2, "c_02_04_4_employment_devtrend.png","*Current value divided by 12-month moving average. Source: BLS (via FRED).")
 
